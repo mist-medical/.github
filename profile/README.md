@@ -1,6 +1,6 @@
 <div align="center">
 
-# MIST
+# MIST Medical
 
 **Open-source toolkits for 3D medical imaging — segmentation, foundation-model pretraining, and the automation layered on top of them.**
 
