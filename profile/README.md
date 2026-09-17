@@ -6,7 +6,8 @@
 
 [![MIST](https://img.shields.io/pypi/v/mist-medical?label=MIST&color=blue)](https://pypi.org/project/mist-medical/)
 [![MISFIT](https://img.shields.io/pypi/v/misfit-medical?label=MISFIT&color=blue)](https://pypi.org/project/misfit-medical/)
-[![Docs](https://img.shields.io/badge/docs-MIST-brightgreen)](https://mist-medical.readthedocs.io/en/latest/)
+[![MIST Docs](https://readthedocs.org/projects/mist-medical/badge/?version=latest&label=mist%20docs)](https://mist-medical.readthedocs.io/en/latest/)
+[![MISFIT Docs](https://readthedocs.org/projects/misfit/badge/?version=latest&label=misfit%20docs)](https://misfit.readthedocs.io/en/latest/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-lightgrey)](https://github.com/mist-medical/MIST/blob/main/LICENSE)
 
 </div>
