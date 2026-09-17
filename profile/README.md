@@ -23,7 +23,6 @@ requires a specific vendor's hardware to get started.
 |---|---|
 | **[MIST](https://github.com/mist-medical/MIST)** | End-to-end 3D medical image segmentation: analyze → preprocess → train → evaluate → predict → postprocess. One config file switches between nnU-Net, MedNeXt, Swin UNETR, and other architectures. |
 | **[MISFIT](https://github.com/mist-medical/MISFIT)** | Pretrains 3D medical imaging foundation models with masked autoencoders. Point it at unlabeled NIfTI volumes and get back an encoder that transfers to segmentation, classification, and retrieval. |
-| **[mist-autoresearch](https://github.com/mist-medical/mist-autoresearch)** | LLM-driven autoresearch loops that propose, evaluate, and iterate on experiment strategies (e.g. postprocessing) for MIST runs. |
 | **[skills](https://github.com/mist-medical/skills)** | Claude Code Agent Skills that give an LLM working knowledge of MIST, MISFIT, and mist-autoresearch, so it can help configure and debug pipelines without re-reading the source every time. |
 
 ## Getting started
