@@ -29,8 +29,12 @@ requires a specific vendor's hardware to get started.
 ## Getting started
 
 ```bash
-# Segmentation
+# Segmentation (CPU; runs on any machine)
 pip install mist-medical
+
+# Segmentation with NVIDIA DALI-accelerated data loading
+# (highly recommended on NVIDIA GPUs)
+pip install "mist-medical[dali]"
 
 # Foundation-model pretraining
 pip install misfit-medical
