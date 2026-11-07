@@ -2,7 +2,7 @@
 
 # MIST Medical
 
-**Open-source toolkits and ready-to-run models for 3D medical imaging — segmentation, foundation-model pretraining, and the automation layered on top of them.**
+**Open-source toolkits and ready-to-run models for 3D medical imaging — segmentation and foundation-model pretraining.**
 
 [![MIST](https://img.shields.io/pypi/v/mist-medical?label=MIST&color=blue)](https://pypi.org/project/mist-medical/)
 [![MISFIT](https://img.shields.io/pypi/v/misfit-medical?label=MISFIT&color=blue)](https://pypi.org/project/misfit-medical/)
@@ -26,7 +26,7 @@ with a GPU recommended.
 | **[MIST](https://github.com/mist-medical/MIST)** | End-to-end 3D medical image segmentation: analyze → preprocess → train → evaluate → predict → postprocess. One config file switches between nnU-Net, MedNeXt, Swin UNETR, and other architectures. |
 | **[MIST Glioma](https://github.com/mist-medical/mist-glioma)** | Raw brain MRI to adult glioma segmentation in one command. Takes T1, T2, contrast-enhanced T1, and FLAIR images in DICOM or NIfTI and returns tumor and resection cavity masks in the native image space. Uses our third-place BraTS 2025 model. For research use only. |
 | **[MISFIT](https://github.com/mist-medical/MISFIT)** | Pretrains 3D medical imaging foundation models with masked autoencoders. Point it at unlabeled NIfTI volumes and get back an encoder that transfers to segmentation, classification, and retrieval. |
-| **[skills](https://github.com/mist-medical/skills)** | Claude Code Agent Skills that give an LLM working knowledge of MIST, MISFIT, and mist-autoresearch, so it can help configure and debug pipelines without re-reading the source every time. |
+| **[skills](https://github.com/mist-medical/skills)** | Claude Code Agent Skills that give an LLM working knowledge of MIST and MISFIT, so it can help configure and debug pipelines without re-reading the source every time. |
 
 ## Getting started
 
