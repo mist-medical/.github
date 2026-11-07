@@ -13,11 +13,11 @@
 
 </div>
 
-Everything in this org runs end-to-end — raw data in, trained models and
-evaluated predictions out — with sensible defaults that work out of the box
-and a config file for when you need more control. Every tool here runs on a
-laptop CPU as well as a multi-GPU cluster (NVIDIA or AMD ROCm); nothing
-requires a specific vendor's hardware to get started.
+MIST and MISFIT take you from raw data to trained models and evaluated
+predictions, with a config file for when you need more control, and they run on
+anything from a laptop CPU to a multi-GPU cluster (NVIDIA or AMD ROCm).
+Ready-to-run tools like MIST Glioma go straight from raw scans to segmentations,
+with a GPU recommended.
 
 ## Projects
 
