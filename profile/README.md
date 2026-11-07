@@ -5,7 +5,7 @@
 **Open-source toolkits and ready-to-run models for 3D medical imaging — segmentation and foundation-model pretraining.**
 
 [![MIST](https://img.shields.io/pypi/v/mist-medical?label=MIST&color=blue)](https://pypi.org/project/mist-medical/)
-[![MISFIT](https://img.shields.io/pypi/v/misfit-medical?label=MISFIT&color=blue)](https://pypi.org/project/misfit-medical/)
+[![MISFIT](https://img.shields.io/pypi/v/misfit-medical?label=MISFIT&color=orange)](https://pypi.org/project/misfit-medical/)
 [![MIST Glioma](https://img.shields.io/pypi/v/mist-glioma?label=MIST%20Glioma&color=blue)](https://pypi.org/project/mist-glioma/)
 [![MIST Docs](https://img.shields.io/readthedocs/mist-medical?label=mist%20docs)](https://mist-medical.readthedocs.io/en/latest/)
 [![MISFIT Docs](https://img.shields.io/readthedocs/misfit?label=misfit%20docs)](https://misfit.readthedocs.io/en/latest/)
