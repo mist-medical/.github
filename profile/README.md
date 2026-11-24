@@ -19,16 +19,6 @@ anything from a laptop CPU to a multi-GPU cluster (NVIDIA or AMD ROCm).
 Ready-to-run tools like MIST Glioma go straight from raw scans to segmentations,
 with a GPU recommended.
 
-## Latest
-
-- November 2026 — **MIST 3.0** — one built-in data loader for NVIDIA, AMD, and
-  CPU machines (no more DALI), patch size, batch size, and precision planned for
-  your GPU at training time, and an nnU-Net-style plain U-Net as the default
-  network. In a matched five-fold comparison on LiTS, MIST ranked ahead of
-  nnU-Net overall and matched it on tumors. See the
-  [release notes](https://github.com/mist-medical/MIST/releases/tag/v3.0.0).
-  MISFIT and MIST Glioma now run on MIST 3.0 as well.
-
 ## Projects
 
 | Project | What it does |
