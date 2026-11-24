@@ -19,11 +19,21 @@ anything from a laptop CPU to a multi-GPU cluster (NVIDIA or AMD ROCm).
 Ready-to-run tools like MIST Glioma go straight from raw scans to segmentations,
 with a GPU recommended.
 
+## Latest
+
+- November 2026 — **MIST 3.0** — one built-in data loader for NVIDIA, AMD, and
+  CPU machines (no more DALI), patch size, batch size, and precision planned for
+  your GPU at training time, and an nnU-Net-style plain U-Net as the default
+  network. In a matched five-fold comparison on LiTS, MIST ranked ahead of
+  nnU-Net overall and matched it on tumors. See the
+  [release notes](https://github.com/mist-medical/MIST/releases/tag/v3.0.0).
+  MISFIT and MIST Glioma now run on MIST 3.0 as well.
+
 ## Projects
 
 | Project | What it does |
 |---|---|
-| **[MIST](https://github.com/mist-medical/MIST)** | End-to-end 3D medical image segmentation: analyze → preprocess → train → evaluate → predict → postprocess. One config file switches between nnU-Net, MedNeXt, Swin UNETR, and other architectures. |
+| **[MIST](https://github.com/mist-medical/MIST)** | End-to-end 3D medical image segmentation: analyze → preprocess → train → evaluate → predict → postprocess. One config file switches between nnU-Net, ResEnc, MedNeXt, Primus, Swin UNETR, and other architectures. |
 | **[MIST Glioma](https://github.com/mist-medical/mist-glioma)** | Raw brain MRI to adult glioma segmentation in one command. Takes T1, T2, contrast-enhanced T1, and FLAIR images in DICOM or NIfTI and returns tumor and resection cavity masks in the native image space. Uses our third-place BraTS 2025 model. For research use only. |
 | **[MISFIT](https://github.com/mist-medical/MISFIT)** | Pretrains 3D medical imaging foundation models with masked autoencoders. Point it at unlabeled NIfTI volumes and get back an encoder that transfers to segmentation, classification, and retrieval. |
 | **[skills](https://github.com/mist-medical/skills)** | Claude Code Agent Skills that give an LLM working knowledge of MIST and MISFIT, so it can help configure and debug pipelines without re-reading the source every time. |
@@ -31,12 +41,8 @@ with a GPU recommended.
 ## Getting started
 
 ```bash
-# Segmentation (CPU; runs on any machine)
+# Segmentation (NVIDIA, AMD ROCm, or CPU)
 pip install mist-medical
-
-# Segmentation with NVIDIA DALI-accelerated data loading
-# (highly recommended on NVIDIA GPUs)
-pip install "mist-medical[dali]"
 
 # Foundation-model pretraining
 pip install misfit-medical
@@ -44,6 +50,11 @@ pip install misfit-medical
 # Glioma segmentation from raw brain MRI
 pip install mist-glioma
 ```
+
+Each project also has a Docker image on Docker Hub:
+[`mistmedical/mist`](https://hub.docker.com/r/mistmedical/mist),
+[`mistmedical/misfit`](https://hub.docker.com/r/mistmedical/misfit), and
+[`mistmedical/mist-glioma`](https://hub.docker.com/r/mistmedical/mist-glioma).
 
 Try MIST first with the
 [end-to-end Colab demo](https://colab.research.google.com/github/mist-medical/MIST/blob/main/examples/mist_heart_demo.ipynb) —
